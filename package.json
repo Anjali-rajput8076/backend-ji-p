@@ -1,16 +1,26 @@
 {
   "name": "backend-ji-p",
   "version": "1.0.0",
-  "description": "a backend ",
+  "description": "backend",
   "keywords": [
-    "javascript",
     "backend"
   ],
+  "homepage": "https://github.com/Anjali-rajput8076/backend-ji-p#readme",
+  "bugs": {
+    "url": "https://github.com/Anjali-rajput8076/backend-ji-p/issues"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Anjali-rajput8076/backend-ji-p.git"
+  },
   "license": "ISC",
   "author": "Anjali",
-  "type": "commonjs",
   "main": "index.js",
+  "type": "module",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "dev": "nodemon src/index.js"
+  },
+  "devDependencies": {
+    "nodemon": "^3.1.14"
   }
 }
